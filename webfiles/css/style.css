@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    background-color: #345765;
+    padding: 1rem 2rem;
+    text-align: right;
+
+    font-size: 1rem;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0 auto;
+}
+nav ul {
+   margin: 0;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2rem;
+    margin: 0 auto;
+    
+    
+}
+h1{
+    max-width: 1200px;
+    text-transform: uppercase;
+    padding: 3rem 1rem;
+    color: #34A58A;
+
+    font-size: 3rem;
+    font-style: normal;
+}
+
+header img{
+ 
+    max-width: 1200px;
+    border-radius: 4px;
+    margin: 0;
+
+}
+
+.première{
+    color: #6B5B54;
+    font-size: 2.25rem;
+    font-style: normal;
+    letter-spacing: 0.06em; 
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+
+    
+}
+
+.paragraphe{
+    color: #000000;
+    font-style: normal;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+
+
+}
+
+#h2{
+    
+    font-style: normal;
+    font-size: 2.25rem;
+    color: #6B5B54;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+
+}
+
+section ul{
+    list-style: none;
+    color: #34A58A;
+    font-style: normal;
+    letter-spacing: 00.06em;
+    font-size: 20px;
+    background: red;
+ /*   background: rgb(27, 20, 115);*/
+
+}
+.logo{  
+    color: #34A58A; 
+    font-size: 1.25rem;
+    display: flex;
+    padding-bottom: 2rem;
+    line-height: 2rem;  
+}
+.contact{
+    display: block;
+    
+}
+.localisation{
+    text-align: center;
+    color: #6B5B54;
+ 
+ }   
+
+
+#carte{
+    color: #6B5B54;
+    letter-spacing: 0.06em;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+    font-size: 2.25em;
+    padding: 1rem;
+    font-style: normal;
+    text-align: centre;
+
+}
+
+.img{
+    color: #34A58A;
+    font-style: normal;
+    float: calc(2);
+    
+}
+
+.dernier{
+    font-style: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0.06em;
+    color: #6B5B54;
+    padding: 1rem;
+    text-align: left;
+}
+
+
+footer{
+    background-color: #34A58A;
+    color: #ffffff;
+
+}
+
+#para{
+    text-decoration: underline;
+}
+.first::first-line{
+    text-decoration: underline;
+}
+.tata{
+    text-decoration: underline;
+
+}
+.titi::first-line{
+    text-decoration: underline;
+}
+.logo::first-line{
+    text-decoration: underline;
+}
+.lolo{
+    float: right;
+}
+.pied{
+    text-align: center;
+    font-size: 1.25rem;
+    
+}
+
